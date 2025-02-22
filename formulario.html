@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shotcut icon" href="img/icon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Formulario</title>
+</head>
+
+<body class="fondo">
+    <br>
+    <div class="Formulario">
+        <form>
+            <h2>Breaking Bad - Que comience el juego!</h2>
+            <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on">
+                <h4>Datos personales</h4>
+                Nombre <input type="text" required>
+                Apellidos <input type="text" required>
+                <br>
+                <br>
+                <h4>Dirección Postal</h4>
+                Calle <input type="text">
+                Número <input type="number">
+                Piso <input type="text">
+                <br>Código Postal <input type="number">
+                Ciudad <input type="text">
+                <br>DNI <input type="text">
+                <br>Correo electrónico <input type="email" required>
+                <br>
+                <br>
+                <br>Sexo <input type="radio" name="sexo" value="Hombre">Hombre
+                <input type="radio" name="sexo" value="Mujer">Mujer
+                <br>
+                <br>Fecha de nacimiento <input type="date" min="1925-01-01" max="01-01-2025">
+                <br>
+                <br>
+                <br>Selecciona tu personaje favorito
+                <select name="personajes">
+                    <option value="1">Jessie Pinkman</option>
+                    <option value="2">Walter White</option>
+                    <option value="3">Saul Goodman</option>
+                    <option value="4">Gustavo Fring</option>
+                    <option value="5">Pollos Hermanos</option>
+                    <option value="6">Otros personajes</option>
+                </select>
+                <br>
+                <br>
+                <br><textarea placeholder="Escribe aquí los comentarios que desees incluir" maxlength="500"></textarea>
+                <br>
+                <br><input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+                <br>
+                <br>
+                <br> Sube un archivo <input type="file" accept=".doc, .docx, .pfd">
+            </form>
+
+
+    </div>
+
+
+</body>
+
+</html>

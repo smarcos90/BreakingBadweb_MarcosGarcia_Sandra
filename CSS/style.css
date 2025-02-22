@@ -1,0 +1,139 @@
+/*GENERAL*/
+
+@font-face {
+    font-family: "Breaking Bad";
+    src: url(../CSS/Breaking\ Bad.ttf);
+}
+
+#poster {
+    width: 700px;
+    height: 300px;
+    border: 10px;
+    border-style: outset;
+    border-color:brown;
+    border-radius: 22px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fondo{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+}
+
+#logo{
+    display: block;
+    margin:auto;
+    width: 200px;
+    height: 200px;
+}
+
+#pEntrada {
+    font-family: Helvetica;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.Formulario {
+    font-family: Helvetica;
+    font-size: 14px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+}
+
+.cabecera{
+    display: block;
+    margin:auto;
+}
+
+
+/*TABLA*/
+
+table {
+    margin:auto;
+    background-color: #2B2C25;
+    background-size: 500px 5000px;
+    padding: 1px;
+    color: #343927;
+    border-spacing: 7px 7px;
+
+}
+
+th, td {
+    text-align: center;
+    min-width: 70px;
+}
+
+.tdVerde {
+    background-color: #C0E23F;
+}
+
+.tdVerdeOliva {
+    background-color: #84924C;
+}
+
+.tdGris {
+    background-color: #BDC69E;
+}
+
+.tdClaro {
+    background-color:#F1FACE ;
+}
+
+.tdMorado{
+    background-color: #A58BC9;
+}
+
+.tdVerdeClaro{
+    background-color: #D8ED7E;
+}
+
+.tdVerdeOscuro{
+    background-color: #8FA92F;
+}
+
+.tdVerdeApagado{
+    background-color: #848E5C;
+}
+
+.tdVerdeClaro2{
+    background-color: #C5E24A;
+}
+
+.elemento{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-size: 10px;
+}
+
+body {
+    background-color: #66732D;
+    font-family: Helvetica;
+}
+
+/*TABLA 2*/
+.trAux{
+    background-color:#C0CB43;
+}
+
+.img{
+    display: block;
+    height: 50px;
+    margin:auto;
+}
+
